@@ -1,0 +1,9 @@
+position
+  mixin position(title, subtitle)
+    .positionframe
+      .positiontext
+        h3.positionheadline=title
+        .smallhold
+          p.smallposition=subtitle
+    if block
+      block

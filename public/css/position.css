@@ -1,0 +1,31 @@
+.positionframe {
+  background: #fff;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  border-top: 1px solid #000;
+}
+
+.positiontext {
+  width: 75%;
+  margin: auto;
+}
+
+.positionheadline {
+  text-align: center;
+  font-size: 4.3rem;
+  color: #000;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.smallposition {
+  text-align: center;
+  font-size: 1rem;
+  color: #000;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.smallhold {
+  width: 80%;
+  margin: auto;
+  max-width: 400px;
+}

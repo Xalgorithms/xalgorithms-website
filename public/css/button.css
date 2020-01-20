@@ -1,0 +1,33 @@
+.buttonhold {
+  padding: 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#bluebutton {
+  border: 1px solid #0258FF;
+  background: #0258FF;
+}
+
+.buttonlink {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.texthold {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.buttonicon {
+  height: 20px;
+}
+
+.iconhold {
+  padding-right: 7.5px;
+}

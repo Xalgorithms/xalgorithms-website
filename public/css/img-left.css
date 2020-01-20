@@ -1,0 +1,83 @@
+.featleftgrid {
+  display: inline-flex;
+}
+
+.featbg {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  border-top: 1px solid #ffffff;
+  width: 90%;
+  margin: auto;
+}
+
+
+.projtitle {
+  color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.projwords {
+  color: #ffffff;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 160%;
+}
+
+.featparhold {
+  width: 100%;
+  margin: auto;
+}
+
+.featpar {
+  width: 70%;
+  margin: auto;
+  padding-left: 5vw;
+}
+
+.projpic {
+  width: 40vw;
+  margin: auto;
+}
+
+#roundtable {
+  height: 800px;
+}
+
+h2.subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #fff;
+}
+
+#noborder {
+  border: 0px;
+  padding-left: 100px;
+  background: #fff;
+}
+
+#tablebloc {
+  border: 0px;
+  height: 300px;
+}
+
+.bluebg {
+  width: 100%;
+  background: #0258FF;
+}
+
+#whitebg {
+  background: #fff;
+}
+
+#inversebod {
+  color: #000;
+}
+
+.bgwhite {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #000;
+}

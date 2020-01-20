@@ -1,0 +1,23 @@
+{
+  "name": "simple-node-website",
+  "version": "0.1.0",
+  "description": "Portfolio Page",
+  "main": "server.js",
+  "scripts": {
+    "start": "npx nodemon app.js"
+  },
+  "author": "Calvin Hutcheon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "serve-favicon": "^2.5.0",
+    "ssl-express-www": "^3.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "engines": {
+    "node": "10.16.0"
+  }
+}

@@ -1,0 +1,14 @@
+.featuretext {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 5vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 70%;
+  color: #ffffff;
+}
+
+.featurescrollhold {
+  background: #000000;
+  border-bottom: 1px solid white;
+  padding: 0.2rem;
+}

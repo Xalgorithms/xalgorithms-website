@@ -1,0 +1,16 @@
+.navbartop {
+  width: 100%;
+  background: #000000;
+  border-bottom: 1px solid white;
+  padding: 1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  position: fixed;
+  z-index: 5;
+}
+
+.navbarsub {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #ffffff;
+}

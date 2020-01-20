@@ -1,0 +1,13 @@
+virtues
+  mixin virtues(idname, title)
+    div(id=idname)
+      .virtuehold
+        .virtuetext
+          p.tablecontent The virtue of
+          .carrothold
+            .h1hold
+              h1.virtuetitle=title
+            .carrottop
+              img.smallcarrot(src="../images/i-carrotdown.png")
+      if block
+        block

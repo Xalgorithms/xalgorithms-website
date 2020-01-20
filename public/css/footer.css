@@ -1,0 +1,64 @@
+.footerhold {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10vh 30vh;
+}
+
+p.footertext {
+  color: #fff;
+}
+
+.addresshold {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.holdbottom {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  align-self: center;
+}
+
+.holdtop {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.infohold {
+  width: 300px;
+}
+
+.copyleft {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.copyleft {
+  align-self: end;
+}
+
+.footerhold>div {
+  padding: 1rem;
+}
+
+#smallish {
+  width: 50px;
+}
+
+.logoholder {
+  margin: auto;
+}
+
+.logotextbox {
+  text-align: center;
+  margin: auto;
+}
+
+.logolargeimage {
+  width: 50px;
+  margin: auto;
+}

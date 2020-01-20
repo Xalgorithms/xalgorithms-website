@@ -1,0 +1,19 @@
+featleft
+  mixin featleft(title, subtitle, picture, body, icon, call)
+      .featbg  
+        .featleftgrid
+          .projpic
+            if block
+              block
+          .featparhold
+            .featnowsub
+              .featpar
+                h3.projtitle=title
+                h2.subtitle=subtitle
+                p.projwords=body
+                .buttonhold
+                  .texthold
+                    .iconhold
+                      img.buttonicon(src=icon)
+                    p.buttontext
+                      a.buttonlink(href="")=call

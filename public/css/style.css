@@ -1,0 +1,25 @@
+/*housekeeping*/
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 16px;
+}
+
+html {
+  background: #FEFEFE;
+  background: #000;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}

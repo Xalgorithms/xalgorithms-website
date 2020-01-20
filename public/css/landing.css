@@ -1,0 +1,83 @@
+.landinggrid {
+  display: inline-grid;
+  grid-template-columns: auto 600px;
+  height: 90vh;
+}
+
+.landinghold {
+  background: #000;
+  color: #fff;
+}
+
+.landingtext {
+  width: 80%;
+  margin: auto;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.landingheadline {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.wrapperhold {
+  margin: auto;
+}
+
+.landingsubhead {
+  width: 90%;
+}
+
+.landingsubhead>h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.landingpara {
+  width: 80%;
+}
+
+.landingpara>p {
+  font-size: 16px;
+  line-height: 160%;
+  color: #CFD4DA;
+}
+
+.landingbuttonhold {
+  padding-top: 20px;
+  width: 80%;
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+}
+
+.wrappersize {
+  display: inline-flex;
+}
+
+.wrappercomp {
+  height: 90vh;
+}
+
+.logohold {
+  display: inline-flex;
+}
+
+.logopic {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.logotext>h4 {
+  font-weight: 200;
+  line-height: 100%;
+}
+
+.logotext {
+  margin: auto;
+}
+
+.lightblue {
+  color: #6CA7EC;
+}

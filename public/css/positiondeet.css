@@ -1,0 +1,84 @@
+.posit {
+
+}
+
+.hide {
+  position: absolute;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #000;
+  width: 350px;
+  margin-top: -50px;
+  margin-left: 10vw;
+  padding: 1rem;
+  display: none;
+}
+
+p.posittop {
+  font-size: 20px;
+}
+
+p.positsmall {
+  color: #0258FF;
+  font-size: 12px;
+}
+
+#activenet {
+  margin-top: -200px;
+}
+
+.showposit {
+  display: block;
+  animation: mymove 0.5s;
+}
+
+.showposita {
+  display: block;
+  right: 10vw;
+  animation: mymovea 0.5s;
+}
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+    margin-left: -10vw;
+    -webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg);
+  }
+  to {
+    opacity: 1;
+    margin-left: 10vw;
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes mymove {
+  from {
+    opacity: 0;
+    margin-left: -10vw;
+    -webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg);
+  }
+  to {
+    opacity: 1;
+    margin-left: 10vw;
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes mymovea {
+  from {
+    opacity: 0;
+    right: -10vw;
+    -webkit-transform: rotate(-15deg); /* Safari */
+    transform: rotate(-15deg);
+  }
+  to {
+    opacity: 1;
+    right: 10vw;
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);
+  }
+}

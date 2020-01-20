@@ -1,0 +1,36 @@
+.virtuehold {
+  background: #fff;
+  padding-top: 5vh;
+  padding-bottom: 7.5vh;
+  border-top: 1px solid #000;
+}
+
+.virtuetext {
+  width: 90%;
+  margin: auto;
+  color: #000;
+  text-align: left;
+}
+
+.virtuetitle {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 3vw;
+}
+
+.carrothold {
+  display: flex;
+  align-items: baseline;
+  align-content: space-around;
+}
+
+.smallcarrot {
+  height: 1.6vw;
+}
+
+.carrottop {
+  margin-left: 10px;
+}
+
+.virtuehold:hover {
+  cursor: pointer;
+}

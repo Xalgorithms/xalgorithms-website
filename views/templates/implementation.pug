@@ -1,0 +1,68 @@
+implementation
+  .rightgrid
+    .leftparhold
+      .featnowsub
+        .featpar
+          h2.subtitle Implementation View
+          p.projwords Our reference implementation for the network service, INTERLIBR, is built in Scala, with Cassandra for queries, MongoDB for history, Kafka for message streaming and logs; and Kubernetes for orchestration. XALGO-RT and XALGO-RM are lightweight Ruby apps. One or more of these three components can be substituted with alternative implementations designed to  preform the same functions. 
+    .projpic
+      .wrapperhold
+        .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")
+          .bloc.bluehold
+            .diagramgrid
+              .diagramtop
+                p Any End user application
+                .diagramimg
+                  img.twistyarrow(src="../images/i-twistarrow.png")
+              .diagramtop
+                p 
+              .diagramtop
+                p any rules repository
+                .diagramimg
+                  img.twistyarrow(src="../images/i-twistarrow.png")
+            .content.content1
+              .diagramgrid
+                .diagramitem.bluehold
+                  p Ruby
+                    br
+                    span.subitem component
+                .diagramitem.bluehold
+                  p Cassandra kafka docker Kubernetes
+                    br
+                    span.subitem network service
+                .diagramitem.bluehold
+                  p ruby
+                    br
+                    span.subitem component
+            .content.content2
+              .arrowhold#toparrowhold
+                .arrowcontainer
+                  .arrowsub
+                    p JSON or CBOR
+                  .arrowtriright
+                .arrowcontainer
+                  .arrowleft
+                  .arrowsub
+                    p JSON or CBOR
+              .arrowhold
+                .arrowcontainer
+                  .arrowleft
+                  .arrowsub
+                    p JSON or CBOR
+                .arrowcontainer
+                  .arrowsub
+                    p JSON or CBOR
+                  .arrowtriright
+                  
+            .diagramgrid
+              .diagramtop
+                .diagramimg
+                  img.twistyarrow.flipp(src="../images/i-twistarrow.png")
+                p Any End user application
+              .diagramtop
+                p 
+              .diagramtop
+                .diagramimg
+                  img.twistyarrow.flipp(src="../images/i-twistarrow.png")
+                p any rules repository
+            .content.content3
