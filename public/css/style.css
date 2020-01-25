@@ -23,3 +23,12 @@ h1 {
 p {
   font-size: 16px;
 }
+
+h3.title {
+  font-size: 32px;
+  color: #fff;
+}
+
+h4.subtitle {
+  font-size: 24px;
+}

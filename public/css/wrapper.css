@@ -24,6 +24,7 @@
   border-radius: 30px;
   border: 1px solid #fff;
   position: relative;
+  background: #fff;
 }
 
 .content {
@@ -155,14 +156,14 @@ span.subitem {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 60px 100px 100px 100px;
-  background: #fff;
+  background: linear-gradient(143.23deg, #280925 -14.38%, #070C16 88.07%, #0452EB 157.21%);
   border-radius: 8px;
   align-content: center;
 }
 
 .tablegrid>div {
   padding: 10px;
-  border: 0.5px solid #0258FF;
+  border: 0.5px solid #fff;
 }
 
 .decision {
@@ -173,7 +174,7 @@ span.subitem {
 }
 
 p.tablecontent {
-  color: #0258FF;
+  color: #fff;
 }
 
 p.tabletitle {

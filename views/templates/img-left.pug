@@ -1,5 +1,5 @@
 featleft
-  mixin featleft(title, subtitle, picture, body, icon, call)
+  mixin featleft(title, subtitle, picture, body, bodyb, bodyc, icon, call)
       .featbg  
         .featleftgrid
           .projpic
@@ -8,9 +8,11 @@ featleft
           .featparhold
             .featnowsub
               .featpar
-                h3.projtitle=title
+                h3.title=title
                 h2.subtitle=subtitle
                 p.projwords=body
+                p.projwords=bodyb
+                p.projwords=bodyc
                 .buttonhold
                   .texthold
                     .iconhold

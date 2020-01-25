@@ -1,7 +1,6 @@
 .navbartop {
   width: 100%;
-  background: #000000;
-  border-bottom: 1px solid white;
+  background: transparent;
   padding: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;

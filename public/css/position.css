@@ -1,31 +1,22 @@
-.positionframe {
-  background: #fff;
+.positiongrid {
+  display: inline-grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.positiona {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
   padding-top: 15vh;
   padding-bottom: 15vh;
-  border-top: 1px solid #000;
 }
 
-.positiontext {
-  width: 75%;
-  margin: auto;
+.positiontitle>h3,h4,p {
+  color: white;
 }
 
-.positionheadline {
-  text-align: center;
-  font-size: 4.3rem;
-  color: #000;
-  font-family: 'Public Sans', sans-serif;
-}
-
-.smallposition {
-  text-align: center;
-  font-size: 1rem;
-  color: #000;
-  font-family: 'Public Sans', sans-serif;
-}
-
-.smallhold {
-  width: 80%;
-  margin: auto;
-  max-width: 400px;
+span.quote {
+  color: #0258FF;
+  font-size: 32px;
 }

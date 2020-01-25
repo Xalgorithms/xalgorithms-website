@@ -1,15 +1,25 @@
 featlefttwo
-  mixin featlefttwo(title, subtitle, picture, body)
-    .featbg#whitebg  
-      .featleftgrid
-        .projpic
-          if block
-            block
-        .featparhold
-          .featnowsub
-            .featpar
-              h3.projtitle#inversebod=title
-              h2.subtitle#inversebod=subtitle
-              p.projwords#inversebod=body
-              p.projwords#inversebod The example at left is from a 30 row, 60 column table published 70 years ago, for use with contracts, regulations, fiscal instruments, logistics planning, engineering load calculations, pricing, and other uses.*  The algorithm takes two pages to explain, but a quick look-up to the table of results replaces having to re-run the algorithm each time it is referred to. 
-              p.positsmall * Taylor, R. B. (1951). Musson’s Improved Ready Reckoner: Form and Log Book (Revised and Enlarged). Musson Book Company.
+  .featbg
+    .featleftgrid
+      .featparhold
+        .featnowsub
+          .featpar
+            h3.projtitle Tabular Declarative Style
+            h2.subtitle Tabular declarative programming enables extremely fast, on-demand, event-driven, scalable computing.
+            .mustmay
+              .mustcard
+                h4.subtitle GIVEN
+                p.projwords a context (dates/times, jurisdictions) 'in effect'
+              .mustcard
+                h4.subtitle WHEN
+                p.projwords certain facts are ‘applicable’
+              .mustcard
+                h4.subtitle THEN
+                p.projwords the specified outputs are determined.
+            p.projwords Computationally-intensive IF-THEN-ELSE procedures are pre-generated as input/output tables. Then during run-time, results can be obtained via simple table look-ups, naïve filtering and minor data transformations, for extremely fast GIVEN-WHEN-THEN computing:
+      .projpic
+        .wrapperhold#roundtable
+          .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")
+            .bloc#noborder
+              .pichold
+                img.roundlog(src="../images/contents_of_round_logs.png")

@@ -1,6 +1,6 @@
 .landinggrid {
   display: inline-grid;
-  grid-template-columns: auto 600px;
+  grid-template-columns: 50% 50%;
   height: 90vh;
 }
 
@@ -15,14 +15,27 @@
   font-family: 'Public Sans', sans-serif;
 }
 
+.landingtextbg {
+  width: 100%;
+  height: 90vh;
+  background: linear-gradient(131deg, #280925 -14.38%, #070C16 88.07%, #0452EB 157.21%);
+}
+
 .landingheadline {
   font-family: 'Public Sans', sans-serif;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-weight: 700;
+}
+
+.wrapperxsize {
+  display: block;
+  margin: auto;
+  width: 550px;
 }
 
 .wrapperhold {
   margin: auto;
+  width: 600px;
 }
 
 .landingsubhead {
@@ -80,4 +93,14 @@
 
 .lightblue {
   color: #6CA7EC;
+}
+
+.landingtextycomp {
+  display: inline-flex;
+  height: 90%;
+  width: 100%;
+}
+
+.landingcomp {
+  height: 90vh;
 }

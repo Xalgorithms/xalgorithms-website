@@ -1,90 +1,94 @@
 landing
   .landinghold
     .landinggrid
-      .landingtext
-        .landingtexthold
-          .logohold
-            .logoimg
-              img.logopic(src="../images/smalllogo.png")
-            .logotext
-              h4 XALGORITHMS
-          .landingheadline
-            h1 Oughtomation
-          .landingsubhead
-            h2 A general purpose method, a reference implementation, and an extensible suite of use cases.
-          .landingpara
-            p Oughtomation is any simple, factual, general-purpose computational method that gives effect to MUST, MAY and SHOULD assertions amongst individual and organizational agents.
-          .landingbuttonhold
-            .buttonhold#bluebutton
-              .texthold
-                .iconhold
-                  img.buttonicon(src="../images/i-paper.png") 
-                p.buttontext
-                  a.buttonlink(href="") Light Paper
-            +buttonfeat (
-              "../images/i-github.png",
-              "Source code"
-            )
+      .landingtextbg
+        .landingtextycomp
+          .landingcomp
+          .landingtext
+            .landingtexthold
+              .logohold
+                .logoimg
+                  img.logopic(src="../images/smalllogo.png")
+                .logotext
+                  h4 XALGORITHMS
+              .landingheadline
+                h1 Oughtomation
+              .landingsubhead
+                h2 A general purpose method, a reference implementation, and an extensible suite of use cases.
+              .landingpara
+                p Oughtomation is any simple, factual, general-purpose computational method that gives effect to MUST, MAY and SHOULD assertions amongst individual and organizational agents.
+              .landingbuttonhold
+                .buttonhold#bluebutton
+                  .texthold
+                    .iconhold
+                      img.buttonicon(src="../images/i-paper.png") 
+                    p.buttontext
+                      a.buttonlink(href="") Light Paper
+                +buttonfeat (
+                  "../images/i-github.png",
+                  "Source code"
+                )
           
       .landingpic
-        .wrappersize
-          .wrappercomp
-          .wrapperhold
-              .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")
-                .bloc
-                  .diagramgrid
-                    .diagramtop
-                      p event or status change
-                      .diagramimg
-                        img.twistyarrow(src="../images/i-twistarrow.png")
-                    .diagramtop
-                      p 
-                    .diagramtop
-                      p social or institutional agent
-                      .diagramimg
-                        img.twistyarrow(src="../images/i-twistarrow.png")
-                  .content.content1
+        .wrapperxsize
+          .wrappersize
+            .wrappercomp
+            .wrapperhold
+                .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")
+                  .bloc
                     .diagramgrid
-                      .diagramitem
-                        p rule taker
-                          br
-                          span.subitem component
-                      .diagramitem
-                        p data processor
-                          br
-                          span.subitem network service
-                      .diagramitem
-                          br
-                          span.subitem component
-                  .content.content2
-                    .arrowhold#toparrowhold
-                      .arrowcontainer
-                        .arrowsub
-                          p is facts
-                        .arrowtriright
-                      .arrowcontainer
-                        .arrowleft
-                        .arrowsub
-                          p rule documents
-                    .arrowhold
-                      .arrowcontainer
-                        .arrowleft
-                        .arrowsub
-                          p ought facts
-                      .arrowcontainer
-                        .arrowsub
-                          p rule patterns
-                        .arrowtriright
-                        
-                  .diagramgrid
-                    .diagramtop
-                      .diagramimg
-                        img.twistyarrow.flipp(src="../images/i-twistarrow.png")
-                      p event or status change
-                    .diagramtop
-                      p 
-                    .diagramtop
-                      .diagramimg
-                        img.twistyarrow.flipp(src="../images/i-twistarrow.png")
-                      p social or institutional agent
-                  .content.content3
+                      .diagramtop
+                        p event or status change
+                        .diagramimg
+                          img.twistyarrow(src="../images/i-twistarrow.png")
+                      .diagramtop
+                        p 
+                      .diagramtop
+                        p social or institutional agent
+                        .diagramimg
+                          img.twistyarrow(src="../images/i-twistarrow.png")
+                    .content.content1
+                      .diagramgrid
+                        .diagramitem
+                          p rule taker
+                            br
+                            span.subitem component
+                        .diagramitem
+                          p data processor
+                            br
+                            span.subitem network service
+                        .diagramitem
+                            br
+                            span.subitem component
+                    .content.content2
+                      .arrowhold#toparrowhold
+                        .arrowcontainer
+                          .arrowsub
+                            p is facts
+                          .arrowtriright
+                        .arrowcontainer
+                          .arrowleft
+                          .arrowsub
+                            p rule documents
+                      .arrowhold
+                        .arrowcontainer
+                          .arrowleft
+                          .arrowsub
+                            p ought facts
+                        .arrowcontainer
+                          .arrowsub
+                            p rule patterns
+                          .arrowtriright
+                          
+                    .diagramgrid
+                      .diagramtop
+                        .diagramimg
+                          img.twistyarrow.flipp(src="../images/i-twistarrow.png")
+                        p event or status change
+                      .diagramtop
+                        p 
+                      .diagramtop
+                        .diagramimg
+                          img.twistyarrow.flipp(src="../images/i-twistarrow.png")
+                        p social or institutional agent
+                    .content.content3
