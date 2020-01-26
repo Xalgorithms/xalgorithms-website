@@ -24,11 +24,12 @@
 
 .rightgrid {
   display: inline-flex;
-  padding-top: 15vh;
+  padding-top: 5vh;
+  width: 100%;
 }
 
 .leftparhold {
-  width: 50vw;
+  width: 50%;
 }
 
 .content>li {
@@ -45,11 +46,13 @@
 }
 
 .sqitchbox {
-  left: 0;
   display: block;
-  padding-top: 15vh;
-  padding-bottom: 15vh;
-  border-top: 1px solid #fff;
+  width: 80%;
+  margin: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-radius: 8px;
+  background: linear-gradient(138.33deg, #610758 -45.41%, #101D36 72.3%, #0349CF 151.73%);
 }
 
 .content {
@@ -65,6 +68,8 @@ ol.content {
   position: relative;
   list-style-type:none;
   height: auto;
+  width: 100%;
+  padding-bottom: 5vh;
 }
 
 .buttonshold {
@@ -82,7 +87,7 @@ ol.content {
   font-family: 'Public Sans', sans-serif;
   font-size: 1rem;
   text-decoration: none;
-  background: #0258FF;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -101,9 +106,10 @@ ol.content {
 }
 
 .quitchsubtitle {
-  width: 900px;
+  max-width: 600px;
   margin: auto;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
+  margin-top: 5vh;
 }
 
 @keyframes transital {

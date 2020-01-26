@@ -24,13 +24,13 @@
   border-radius: 30px;
   border: 1px solid #fff;
   position: relative;
-  background: #fff;
+  background: #000;
 }
 
 .content {
   transform: translateZ(80px) scale(1);
   -webkit-transform: translateZ(80px) scale(1);
-  height: 360px;
+  height: 200px;
   width: 480px;
   margin: auto;
   color: #fff;
@@ -38,12 +38,12 @@
 }
 
 .content2 {
-  transform: translateZ(120px) scale(1);
-  -webkit-transform: translateZ(120px) scale(1);
+  transform: translateZ(160px) scale(1);
+  -webkit-transform: translateZ(160px) scale(1);
   z-index: 4;
   display: relative;
-  margin-top: -340px;
-  height: 200px;
+  margin-top: -180px;
+  height: 160px;
 }
 
 .diagramgrid {
@@ -63,12 +63,12 @@
   text-transform: uppercase;
   width: 30%;
   text-align: center;
-  background: #000;
+  background: linear-gradient(255.82deg, #860579 -193.35%, #070C16 84.84%, #0452EB 272.57%);
   border: 1px solid #fff;
 }
 
 .diagramitem>p {
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
 }
 
@@ -84,9 +84,6 @@
 }
 
 .diagramtop>p {
-  font-family: serif;
-  text-transform: uppercase;
-  font-style: italic;
   font-size: 12px;
 }
 
@@ -113,6 +110,7 @@
   text-transform: uppercase;
   text-align: center;
   font-size: 12px;
+  color: #000;
 }
 
 #toparrowhold {
@@ -141,8 +139,6 @@
 }
 
 span.subitem {
-  font-family: serif;
-  font-style: italic;
   text-align: center;
   color: #fff;
 }
@@ -155,15 +151,18 @@ span.subitem {
   width: 600px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 60px 100px 100px 100px;
-  background: linear-gradient(143.23deg, #280925 -14.38%, #070C16 88.07%, #0452EB 157.21%);
+  grid-template-rows: 80px 120px 120px 120px;
+  background: #000;
+  border: 1px solid #fff;
   border-radius: 8px;
   align-content: center;
 }
 
 .tablegrid>div {
-  padding: 10px;
-  border: 0.5px solid #fff;
+  margin-left: 12px;
+  margin-top: 12px;
+  padding-left: 12px;
+  background: #000;
 }
 
 .decision {
@@ -174,18 +173,19 @@ span.subitem {
 }
 
 p.tablecontent {
+  font-size: 12px;
   color: #fff;
 }
 
 p.tabletitle {
-  color: #0258FF;
+  color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
-  text-align: center;
+  font-size: 10px;
+  text-align: left;
 }
 
 .roundlog {
-  width: 400px;
+  width: 260px;
 }
 
 #nobg {
@@ -193,7 +193,9 @@ p.tabletitle {
 }
 
 .void, .decision, .documentation, .assertion {
-  background: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 12px;
+  color: #fff;
 }
 
 .void {
@@ -202,4 +204,20 @@ p.tabletitle {
 
 .assertion {
   border-radius: 0 8px 0 0;
+}
+
+.altgrad {
+  background: linear-gradient(255.82deg, #860579 -193.35%, #070C16 84.84%, #0452EB 272.57%);
+}
+
+.altgradb {
+  background: linear-gradient(297.19deg, #076A29 -170.93%, #070C16 105.02%, #0452EB 291.25%);
+}
+
+.altgradc {
+  background: linear-gradient(254.51deg, #280925 -298.78%, #070C16 44.11%, #0452EB 275.5%);
+}
+
+.altgradd {
+  background: linear-gradient(102.42deg, #860579 -255.93%, #070C16 70.38%, #04EB7C 282.8%);
 }

@@ -3,6 +3,7 @@
   border: 1px solid #ffffff;
   border-radius: 30px;
   text-align: center;
+  max-width: 300px;
 }
 
 #bluebutton {

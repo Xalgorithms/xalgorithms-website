@@ -1,36 +1,39 @@
 .virtuehold {
-  background: #fff;
-  padding-top: 5vh;
-  padding-bottom: 7.5vh;
-  border-top: 1px solid #000;
+ width: 80%;
+ margin: auto;
+ max-width: 1000px;
 }
 
-.virtuetext {
-  width: 90%;
+.virtuerow>div {
+  width: 80%;
   margin: auto;
-  color: #000;
-  text-align: left;
+  max-width: 450px;
 }
 
-.virtuetitle {
-  font-family: 'Public Sans', sans-serif;
-  font-size: 3vw;
+.virtuer {
+  grid-row-start: 2;
+  grid-column-start: 2;
 }
 
-.carrothold {
-  display: flex;
-  align-items: baseline;
-  align-content: space-around;
+.virtuer {
+  padding-top: 0;
 }
 
-.smallcarrot {
-  height: 1.6vw;
+.virtuerow {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 20vh auto;
 }
 
-.carrottop {
-  margin-left: 10px;
+.virtuepic {
+  width: 70px;
+  border-radius: 8px;
 }
 
-.virtuehold:hover {
-  cursor: pointer;
+.virtueicon {
+  padding-bottom: 24px;
+}
+
+#tworow {
+  margin-top: -10vh;
 }

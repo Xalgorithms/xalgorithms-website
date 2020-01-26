@@ -1,21 +1,22 @@
 featleft
   mixin featleft(title, subtitle, picture, body, bodyb, bodyc, icon, call)
-      .featbg  
-        .featleftgrid
-          .projpic
-            if block
-              block
-          .featparhold
-            .featnowsub
-              .featpar
-                h3.title=title
-                h2.subtitle=subtitle
-                p.projwords=body
-                p.projwords=bodyb
-                p.projwords=bodyc
-                .buttonhold
-                  .texthold
-                    .iconhold
-                      img.buttonicon(src=icon)
-                    p.buttontext
-                      a.buttonlink(href="")=call
+      .featlbg
+        .featbg  
+          .featleftgrid
+            .projpic
+              if block
+                block
+            .featparhold
+              .featnowsub
+                .featpar
+                  h3.title=title
+                  h4.subtitle=subtitle
+                  p.projwords=body
+                  p.projwords=bodyb
+                  p.projwords=bodyc
+                  .buttonhold#bluebutton
+                    .texthold
+                      .iconhold
+                        img.buttonicon(src=icon)
+                      p.buttontext
+                        a.buttonlink(href="")=call

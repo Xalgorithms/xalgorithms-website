@@ -1,7 +1,7 @@
 /*housekeeping*/
 * {
   box-sizing: border-box;
-  line-height: normal;
+  line-height: 140%;
   font-family: 'Public Sans', sans-serif;
 }
 
@@ -16,8 +16,9 @@ html {
   background: #000;
 }
 
-h1 {
-  margin: 0;
+h1, h2, h3, h4 {
+  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 p {
@@ -26,9 +27,13 @@ p {
 
 h3.title {
   font-size: 32px;
-  color: #fff;
+  color: #F6F6F1;
+  margin: 0;
 }
 
 h4.subtitle {
   font-size: 24px;
+  margin: 0;
+  line-height: 140%;
+  font-weight: 100;
 }

@@ -10,8 +10,6 @@ html
     include ../templates/featurescroll
     include ../templates/img-left
     include ../templates/button
-    include ../templates/virtues
-    include ../templates/virtueinfo
     
     // header
     include ../templates/landing.pug
@@ -30,7 +28,7 @@ html
     
     +featleft (
       "MUST, MAY and SHOULD",
-      "",
+      "A normative rule expresses a relation between ‘is’ and ‘ought’ based on agreement or authority.",
       "",
       "A normative rule expresses a relation between ‘is’ and ‘ought’ based on agreement or authority. Our contribution is the design of a general purpose method to enable anyone to publish, discover, fetch, test and triage declarative information about normative rules which are ‘in effect’ for given dates/times, identities and jurisdictions, and that are ‘applicable’ when certain facts exhibit. ",
       "When normative rules can be discovered and transmitted on-demand in response to specified events or status changes, many types of operations become greatly simplified, and each party’s control of their data is strengthened. ",
@@ -38,41 +36,42 @@ html
       "",
       "white paper"
       )
-      .wrapperhold
+      .wrapperhold#pushup
         .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")#rehight
           .bloc.whiteswitch#tablebloc
             .tablegrid
               .void
+                p.tabletitle must may should
               .decision
-                p.tabletitle 
+                p.tabletitle PREROGATIVE
               .documentation
-                p.tabletitle 
+                p.tabletitle PROPOSITION
               .assertion
-                p.tabletitle 
+                p.tabletitle DECISION
               .r2a
-                p.tablecontent 
+                p.tablecontent Contextual
               .r2b
-                p.tablecontent These facts resolve into these rules.
+                p.tablecontent A system of rules
               .r2c
-                p.tablecontent about a <br>system of rules
+                p.tablecontent About a <br>system of rules
               .r2d
-                p.tablecontent system <br>of rules
+                p.tablecontent These facts elicit all of these rules
               .r3a
-                p.tablecontent practical <br> must, may, should
+                p.tablecontent Practical
               .r3b
-                p.tablecontent  these facts invoke this practical rule
+                p.tablecontent  A practical rule
               .r3c
-                p.tablecontent  about a <br>practical rule
+                p.tablecontent  About a <br>practical rule
               .r3d
-                p.tablecontent  practical <br>rule
+                p.tablecontent  These facts elicit this practical rule
               .r4a
-                p.tablecontent ethical <br> must, may, should
+                p.tablecontent Ethical
               .r4b
-                p.tablecontent these facts invoke this ethical rule
+                p.tablecontent An ethical rule
               .r4c
                 p.tablecontent about an <br>ethical rule
               .r4d
-                p.tablecontent ethical <br>rule
+                p.tablecontent These facts elicit this practical rule
               
               
       
@@ -85,7 +84,7 @@ html
     //threehold
     .sqitchbox
       .quitchtitle
-        h3.projtitle A Reference Implementation
+        h3.title A Reference Implementation
       .buttonshold
         button.operate function
         button.component component
@@ -100,49 +99,13 @@ html
     .quitchsubtitle
       p.smallposition.inversebod A reference implementation is a minimal viable working version of a specification to demonstrate its purpose and workability, to test its performance and usability, and to serve as a benchmark for other implementations. Our reference implementation is also considered to be the "core" project, under the Apache 2.0 License. Anyone can create extensions under any licensing model. Extensions hosted by Xalgorithms Foundation are shared under the Affero GPL 2.0 License. 
         
-      // virtues  
-        
+    // virtues  
+    include ../templates/virtues  
         
           
-        +virtues (
-          "smart",
-          "Smart Edges, Simple Core"
-        )
-          +virtuehold (
-            "smartedge",
-            "Data control and processing complexity belong at the edges of the Internet, on the computers of individuals, organizations, and their chosen speciality service providers. Data control includes choice in data routing. Two or more parties may prefer to communicate on the Internet solely via routers that implement particular neutrality, privacy or other normative rule sets. Programmable routers and data-plane functionality across future networks will require a general-purpose method to give effect to MUST, MAY and SHOULD asserted at the edge."
-          )
-        
-        +virtues (
-          "uncupled",
-          "Uncoupled Networks"
-        )
-          +virtuehold (
-            "uncouplednet",
-            "Loose coupling of components and data means interchangeable alternative implementations, to avoid misplaced restrictions relating to platform, programming language, operating system or supplier, which  clash with edge-based prerogative.  The oughtomation method implements “rules-as-data” with simple input/output control-tables that work with any programming language, given the accompanying parsing library. This avoids “rules as code” lock-in where algorithms are expressed in various incompatible procedural programming languages."
-          )
-        
-        +virtues (
-          "freedom",
-          "User Freedom"
-        )
-          +virtuehold (
-            "freedomnet",
-            "The use of computer programs enable the extension of the user’s intellectual and tangible faculty of action: their agency. This is a ‘demand-side’ concern. <br> When a society is premised upon consent, every user retains freedom of agency to run software for any purpose, to not run it, to study how the program works, to adapt it to specific needs, to copy the program and to redistribute copies, to improve the program, and to release any modified versions. "
-          )
-        
-        +virtues (
-          "construction",
-          "Open Source Construction"
-        )
-          +virtuehold (
-            "opensourcenetnet",
-            "Computer programs enable the extension of the programmer’s intellectual and tangible faculty of action: their agency. This is a ‘supply-side’ concern. The market value proposition for open source methods is that coopetition enables participating individuals and organizations to significantly augment benefits, better manage risk, and reduce costs through collaborative provisioning, learning, transparency, innovation and interoperability.  "
-          )
       
     // organization
-    .bgwhite
-      include ../templates/img-left-three
+    include ../templates/img-left-three
                 
 
     // footer
