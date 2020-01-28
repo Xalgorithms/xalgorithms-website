@@ -152,9 +152,10 @@ ol.content {
   }
 
   .sqitchbox {
-    width: 90%;
+    width: 100%;
     padding-top: 10vh;
     padding-bottom: 0;
+    border-radius: 0;
   }
 
   .leftparhold {

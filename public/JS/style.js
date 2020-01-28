@@ -41,6 +41,12 @@ $(function squiwtcha() {
 });
 */
 
+$(".positionattrib").hover(function() {
+    $(this).siblings(".quoteshow").addClass("showme");
+}, function() {
+    $(this).siblings(".quoteshow").removeClass("showme");
+});
+
 
 function squiwtchb() {
   $(".component").click(function() {

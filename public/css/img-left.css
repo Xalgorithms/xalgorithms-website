@@ -93,10 +93,10 @@ h2.subtitle {
 
 .mustcard {
   border-radius: 8px;
-  background: linear-gradient(118.3deg, #610758 -45.41%, #101D36 72.3%, #0349CF 151.73%);
   padding: 18px;
   padding-top: 62px;
   padding-bottom: 0px;
+  border: 1px solid #fff;
 }
 
 #pushup {

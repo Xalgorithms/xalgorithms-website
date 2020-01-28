@@ -2,6 +2,7 @@
   display: inline-grid;
   grid-template-columns: 50% 50%;
   height:auto;
+  padding-top: 60px;
 }
 
 .landinghold {
@@ -137,7 +138,7 @@
 
   .landingheadline {
     font-family: 'Public Sans', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
   }
 
