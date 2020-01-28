@@ -4,7 +4,7 @@ implementation
       .featnowsub
         .featpar
           h4.subtitle Implementation View
-          p.projwords Our reference implementation for the network service, INTERLIBR, is built in Scala, with Cassandra for queries, MongoDB for history, Kafka for message streaming and logs; and Kubernetes for orchestration. XALGO-RT and XALGO-RM are lightweight Ruby apps. One or more of these three components can be substituted with alternative implementations designed to  preform the same functions. 
+          p.projwords Our reference implementation for the network service, INTERLIBR, is built in Scala, with Cassandra for queries, MongoDB for history, Kafka for message streaming and logs; and Kubernetes for orchestration. XALGO-RT and XALGO-RM are lightweight auxiliary Ruby applications. One or more of these three components can be substituted with alternative implementations designed to perform the same functions. A reference implementation is a minimal viable working version of a specification to demonstrate its purpose and workability, to test its performance and usability, and to serve as a benchmark for other implementations. 
     .projpic
       .wrapperhold
         .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")
@@ -29,7 +29,7 @@ implementation
                 .diagramitem.altgrada
                   p Cassandra kafka docker Kubernetes
                     br
-                    span.subitem network service
+                    span.subitem Scala service
                 .diagramitem.altgradd
                   p ruby
                     br
@@ -65,4 +65,3 @@ implementation
                 .diagramimg
                   img.twistyarrow.flipp(src="../images/i-twistarrow.png")
                 p any rules repository
-            .content.content3

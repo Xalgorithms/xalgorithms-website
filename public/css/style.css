@@ -19,6 +19,7 @@ html {
 h1, h2, h3, h4 {
   margin-bottom: 12px;
   padding-bottom: 12px;
+  margin-top: 0;
 }
 
 p {
@@ -36,4 +37,16 @@ h4.subtitle {
   margin: 0;
   line-height: 140%;
   font-weight: 100;
+}
+
+@media only screen and (max-width: 1180px) {
+
+  h4.subtitle {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
 }

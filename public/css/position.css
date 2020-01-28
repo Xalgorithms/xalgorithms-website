@@ -20,3 +20,30 @@ span.quote {
   color: #0258FF;
   font-size: 32px;
 }
+
+.positionattrib {
+  display: inline-flex;
+  align-items: center;
+}
+
+.littlequote {
+  height: 16px;
+}
+
+.quoteiconhold {
+  padding-left: 12px;
+}
+
+@media only screen and (max-width: 1180px) {
+
+  .positiongrid {
+    display: block;
+    padding-top: 10vh;
+  }
+
+  .positiona {
+    padding-top: 0;
+    padding-bottom: 10vh;
+  }
+
+}

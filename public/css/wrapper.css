@@ -89,7 +89,7 @@
 
 
 #rehight {
-  height: 300px;
+  height: 450px;
 }
 
 .arrowhold {
@@ -151,7 +151,7 @@ span.subitem {
   width: 600px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 80px 120px 120px 120px;
+  grid-template-rows: 160px 120px 120px 120px;
   background: #000;
   border: 1px solid #fff;
   border-radius: 8px;
@@ -159,10 +159,10 @@ span.subitem {
 }
 
 .tablegrid>div {
-  margin-left: 12px;
-  margin-top: 12px;
   padding-left: 12px;
-  background: #000;
+  padding-right: 12px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
 .decision {
@@ -173,19 +173,20 @@ span.subitem {
 }
 
 p.tablecontent {
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
 }
 
 p.tabletitle {
   color: #fff;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 14px;
   text-align: left;
+  font-weight: 600;
 }
 
 .roundlog {
-  width: 260px;
+  width: 100%;
 }
 
 #nobg {
@@ -207,7 +208,7 @@ p.tabletitle {
 }
 
 .altgrad {
-  background: linear-gradient(255.82deg, #860579 -193.35%, #070C16 84.84%, #0452EB 272.57%);
+  background: linear-gradient(238.04deg, #1A7D93 -111.01%, #101D36 54.55%, #0349CF 281.43%);
 }
 
 .altgradb {
@@ -219,5 +220,65 @@ p.tabletitle {
 }
 
 .altgradd {
-  background: linear-gradient(102.42deg, #860579 -255.93%, #070C16 70.38%, #04EB7C 282.8%);
+  background: linear-gradient(73.23deg, #3A6285 -122.83%, #101D36 45.18%, #0349CF 158.56%);
+}
+
+
+.roundcorner {
+  border-radius: 0 0 8px 0;
+}
+
+
+@media only screen and (max-width: 1180px) {
+
+  .wrapper {
+    width: 90vw;
+    height: auto;
+    position: relative;
+  }
+
+  .tablegrid {
+    width: 90vw;
+  }
+
+  element.style {
+    transform: none;
+  }
+
+  .diagramgrid {
+    width: 80vw;
+  }
+
+  .content {
+    width: 80vw;
+  }
+
+  .arrowcontainer {
+    width: 30vw;
+  }
+
+  .wrapperhold {
+    width: 70vw;
+  }
+
+  .roundlog {
+    width: 90vw;
+  }
+
+  .rotator {
+    position: relative;
+    transform: rotate(-90deg);
+    float: left;
+    bottom: -50px;
+  }
+
+  .arrowsub>p {
+    font-size: 8px;
+    color: #000;
+  }
+
+  .arrowhold {
+    align-content: center;
+  }
+
 }

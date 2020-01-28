@@ -1,7 +1,7 @@
 .featleftgrid {
   display: inline-flex;
   width: 100%;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .featbg {
@@ -34,17 +34,16 @@
 .featpar {
   width: 65%;
   margin: auto;
+}
 
+.littlspace {
+  height: 12px;
 }
 
 .projpic {
   width: 50%;
   margin: auto;
-}
-
-#roundtable {
-  height: 600px;
-  padding-top: 15vh;
+  height: auto;
 }
 
 h2.subtitle {
@@ -88,19 +87,19 @@ h2.subtitle {
   grid-template-columns: 33% 33% 33%;
   grid-column-gap: 12px;
   width: 95%;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .mustcard {
   border-radius: 8px;
-  background: linear-gradient(254.51deg, #280925 -298.78%, #070C16 44.11%, #0452EB 275.5%);
+  background: linear-gradient(118.3deg, #610758 -45.41%, #101D36 72.3%, #0349CF 151.73%);
   padding: 18px;
   padding-top: 62px;
   padding-bottom: 0px;
-  border: 1px solid #fff;
 }
 
 #pushup {
-  margin-bottom: 40vh;
 }
 
 #quitchwidth {
@@ -112,8 +111,8 @@ h2.subtitle {
   width: 100%;
   background: #110A1A;
   margin-top: 15vh;
-  padding-bottom: 10vh;
-  padding-top: 10vh;
+  padding-bottom: 20vh;
+  padding-top: 20vh;
 }
 
 .featlbg {
@@ -127,8 +126,12 @@ h2.subtitle {
 }
 
 #althold {
-  align-items: flex-start;
   padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.bigicon {
+  width: 100%;
 }
 
 @media only screen and (max-width: 1180px) {
@@ -145,6 +148,48 @@ h2.subtitle {
     width: 90%;
     margin: auto;
 
+  }
+
+  .projpic {
+    width: 90vw;
+    padding-bottom: 5vh;
+  }
+
+  #noborder {
+    padding-left: 0;
+  }
+
+  #althold {
+    padding-top: 0;
+    padding-bottom: 0 ;
+  }
+
+  .featlbg {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .featbg {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  #spaceer {
+    padding-top: 10vh;
+    padding-bottom: 2.5vh;
+  }
+
+  .mustcard {
+    padding: 12px;
+    padding-bottom: 6px;
+  }
+
+  #mobilewide {
+    width: 100%;
+  }
+
+  .projwords {
+    font-size: 14px;
   }
 
 }

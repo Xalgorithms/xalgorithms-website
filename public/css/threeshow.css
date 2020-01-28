@@ -24,7 +24,7 @@
 
 .rightgrid {
   display: inline-flex;
-  padding-top: 5vh;
+  padding-top: 10vh;
   width: 100%;
 }
 
@@ -49,8 +49,8 @@
   display: block;
   width: 80%;
   margin: auto;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   border-radius: 8px;
   background: linear-gradient(138.33deg, #610758 -45.41%, #101D36 72.3%, #0349CF 151.73%);
 }
@@ -138,4 +138,41 @@ ol.content {
 
 .flipp {
   transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 1180px)  {
+
+  .rightgrid {
+    display: block;
+  }
+
+  .buttonshold {
+    width: 90%;
+    display: block;
+  }
+
+  .sqitchbox {
+    width: 90%;
+    padding-top: 10vh;
+    padding-bottom: 0;
+  }
+
+  .leftparhold {
+    width: 100%;
+  }
+
+  .buttonshold>button {
+    margin-top: 12px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  ol.content {
+    padding-bottom: 0;
+  }
+
+  .quitchsubtitle {
+    margin-top: 0;
+  }
+
 }

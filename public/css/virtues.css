@@ -1,28 +1,30 @@
 .virtuehold {
  width: 80%;
  margin: auto;
- max-width: 1000px;
+ max-width: 1200px;
 }
 
 .virtuerow>div {
-  width: 80%;
-  margin: auto;
-  max-width: 450px;
+  height: auto;
+  margin: 0;
+  width: auto;
 }
 
 .virtuer {
   grid-row-start: 2;
   grid-column-start: 2;
-}
-
-.virtuer {
-  padding-top: 0;
+  grid-column-end: 2;
+  height: auto;
 }
 
 .virtuerow {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
   grid-template-rows: 20vh auto;
+  width: 100;
+  max-width: 1200px;
+  height: auto;
 }
 
 .virtuepic {
@@ -36,4 +38,24 @@
 
 #tworow {
   margin-top: -10vh;
+}
+
+@media only screen and (max-width: 1180px) {
+
+  .virtuerow {
+    display: block;
+  }
+
+  #tworow {
+    margin-top: 0;
+  }
+
+  .virtuerow>div {
+    padding-top: 5vh;
+  }
+
+  .virtuehold {
+    width: 90vw;
+  }
+
 }

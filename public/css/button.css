@@ -32,3 +32,19 @@ img.buttonicon {
 .iconhold {
   padding-right: 7.5px;
 }
+
+@media only screen and (max-width: 1180px) {
+
+  .buttonhold {
+    padding: 12px;
+  }
+
+  p.buttontext {
+    margin: 0;
+  }
+
+  #bluebutton {
+    margin-bottom: 24px;
+  }
+
+}

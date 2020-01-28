@@ -1,7 +1,7 @@
 .landinggrid {
   display: inline-grid;
   grid-template-columns: 50% 50%;
-  height: 80vh;
+  height:auto;
 }
 
 .landinghold {
@@ -17,7 +17,8 @@
 
 .landingtextbg {
   width: 100%;
-  height: 80vh;
+  min-height: 90vh;
+  height: auto;
   background: linear-gradient(118.3deg, #610758 -45.41%, #101D36 72.3%, #0349CF 151.73%);
 }
 
@@ -70,21 +71,24 @@
 }
 
 .wrappercomp {
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .logohold {
   display: inline-flex;
+  align-items: center;
 }
 
 .logopic {
-  height: 50px;
+  height: 30px;
   margin-right: 15px;
 }
 
 .logotext>h4 {
   font-weight: 200;
   line-height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .logotext {
@@ -105,7 +109,7 @@
   height: 80vh;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1180px) {
 
   .landinggrid {
     display: block;
@@ -113,6 +117,41 @@
 
   #disp {
     display: none;
+  }
+
+  .landingbuttonhold {
+    display: block;
+  }
+
+  .wrapperhold {
+    width: 90vw;
+  }
+
+  .wrapperxsize {
+    width: 90vw;
+  }
+
+  .landingtext{
+    width: 90%;
+  }
+
+  .landingheadline {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .landingsubhead {
+    width: 90%;
+  }
+
+  .landingpara>p {
+    font-size: 14px;
+  }
+
+  .landingtextbg {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
 }

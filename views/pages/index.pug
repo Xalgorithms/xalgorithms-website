@@ -28,49 +28,56 @@ html
     
     +featleft (
       "MUST, MAY and SHOULD",
-      "A normative rule expresses a relation between ‘is’ and ‘ought’ based on agreement or authority.",
+      "A normative rule expresses a relation between ‘is’ and ‘ought,’ based on agreement or authority.",
       "",
-      "A normative rule expresses a relation between ‘is’ and ‘ought’ based on agreement or authority. Our contribution is the design of a general purpose method to enable anyone to publish, discover, fetch, test and triage declarative information about normative rules which are ‘in effect’ for given dates/times, identities and jurisdictions, and that are ‘applicable’ when certain facts exhibit. ",
+      "Our contribution is the design of a general purpose method to enable anyone to publish, discover, fetch, test and triage declarative information about normative rules which are ‘in effect’ for given dates/times, identities and jurisdictions, and that are ‘applicable’ when certain facts exhibit. ",
       "When normative rules can be discovered and transmitted on-demand in response to specified events or status changes, many types of operations become greatly simplified, and each party’s control of their data is strengthened. ",
-      "This approach to ‘oughtomation’ reflects core virtues of the Internet. Some are summarized below, and more detail is in the white paper.",
+      "This approach to ‘oughtomation’ reflects core virtues of the Internet, as sumarized below.",
       "",
       "white paper"
       )
-      .wrapperhold#pushup
+      .wrapperhold
         .wrapper.elem(style="transform: perspective(600px) rotateY(0deg) rotateX(0deg);")#rehight
           .bloc.whiteswitch#tablebloc
             .tablegrid
               .void
-                p.tabletitle must may should
+                .rotator
+                  p.tabletitle must may should
               .decision
-                p.tabletitle PREROGATIVE
+                .rotator
+                  p.tabletitle PREROGATIVE
               .documentation
-                p.tabletitle PROPOSITION
-              .assertion
-                p.tabletitle DECISION
+                .rotator
+                  p.tabletitle PROPOSITION
+              .assertion.paddingright
+                .rotator
+                  p.tabletitle DECISION
               .r2a
-                p.tablecontent Contextual
+                .rotator
+                  p.tabletitle Contextual
               .r2b
                 p.tablecontent A system of rules
               .r2c
                 p.tablecontent About a <br>system of rules
-              .r2d
+              .r2d.paddingright
                 p.tablecontent These facts elicit all of these rules
               .r3a
-                p.tablecontent Practical
+                .rotator
+                  p.tabletitle Practical
               .r3b
                 p.tablecontent  A practical rule
               .r3c
                 p.tablecontent  About a <br>practical rule
-              .r3d
+              .r3d.paddingright
                 p.tablecontent  These facts elicit this practical rule
               .r4a
-                p.tablecontent Ethical
+                .rotator
+                  p.tabletitle Ethical
               .r4b
                 p.tablecontent An ethical rule
               .r4c
                 p.tablecontent about an <br>ethical rule
-              .r4d
+              .r4d.paddingright.roundcorner
                 p.tablecontent These facts elicit this practical rule
               
               
@@ -97,7 +104,7 @@ html
         li.heroc
           include ../templates/implementation  
     .quitchsubtitle
-      p.smallposition.inversebod A reference implementation is a minimal viable working version of a specification to demonstrate its purpose and workability, to test its performance and usability, and to serve as a benchmark for other implementations. Our reference implementation is also considered to be the "core" project, under the Apache 2.0 License. Anyone can create extensions under any licensing model. Extensions hosted by Xalgorithms Foundation are shared under the Affero GPL 2.0 License. 
+      p.smallposition.inversebod 
         
     // virtues  
     include ../templates/virtues  
