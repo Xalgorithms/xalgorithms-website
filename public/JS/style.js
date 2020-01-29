@@ -41,10 +41,10 @@ $(function squiwtcha() {
 });
 */
 
-$(".positionattrib").hover(function() {
-    $(this).siblings(".quoteshow").addClass("showme");
+$(".positiona").hover(function() {
+    $(this).children(".quoteshow").addClass("showme");
 }, function() {
-    $(this).siblings(".quoteshow").removeClass("showme");
+    $(this).children(".quoteshow").removeClass("showme");
 });
 
 

@@ -134,6 +134,10 @@ h2.subtitle {
   width: 100%;
 }
 
+.modlink {
+  color: #fff;
+}
+
 @media only screen and (max-width: 1180px) {
 
   .featleftgrid {
