@@ -1,6 +1,5 @@
 .navbartop {
   width: 100%;
-  background: transparent;
   padding: 1rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
@@ -15,4 +14,22 @@
   font-family: 'Public Sans', sans-serif;
   font-size: 0.8rem;
   color: #ffffff;
+}
+
+.navbargrid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navtoplevelpages {
+  display: flex;
+  float: right;
+}
+
+.menuitem {
+  padding-left: 24px;
+}
+
+.navitem {
+  text-decoration: none;
 }

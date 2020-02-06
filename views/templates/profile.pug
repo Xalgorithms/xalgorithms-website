@@ -1,0 +1,9 @@
+profile
+  mixin profile(image, name, bio)
+    .profilehold
+      .profilepichold
+        img.profilepicture(src=image)
+      .profilemeta
+        .profilepar
+          h3.title=name
+          p.projwords=bio

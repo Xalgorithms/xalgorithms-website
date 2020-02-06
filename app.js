@@ -16,6 +16,12 @@ app.get('/', (req, res) => {
   });
 });
 
+app.get('/team', (req, res) => {
+  res.render('pages/team', {
+    title: 'XALGORITHMS | Team'
+  });
+});
+
 //team
 
 
