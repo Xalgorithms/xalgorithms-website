@@ -28,9 +28,9 @@ app.get('/donate', (req, res) => {
   });
 });
 
-app.get('/covid-19-alerts', (req, res) => {
-  res.render('pages/covid-19-alerts', {
-    title: 'XALGORITHMS | Covid 19 Alerts'
+app.get('/global_reset', (req, res) => {
+  res.render('pages/global_reset', {
+    title: 'XALGORITHMS | Global Reset'
   });
 });
 

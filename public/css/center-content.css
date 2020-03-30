@@ -12,3 +12,11 @@
 a {
   color: #fff;
 }
+
+ul, ol {
+  color: #fff;
+}
+
+.divideline {
+  border-bottom: 1px solid #fff;
+}
