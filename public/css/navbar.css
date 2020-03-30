@@ -2,7 +2,7 @@
   width: 100%;
   padding: 1rem;
   padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  padding-top: 0.5rem !important;
   position: fixed;
   z-index: 5;
   background: #000;
@@ -19,11 +19,15 @@
 .navbargrid {
   display: flex;
   justify-content: space-between;
+  padding-top: 0.5rem;
 }
 
 .navtoplevelpages {
-  display: flex;
-  float: right;
+  display: none;
+}
+
+.mobileclose {
+  display: none;
 }
 
 .menuitem {
@@ -32,4 +36,50 @@
 
 .navitem {
   text-decoration: none;
+}
+
+#padbutton {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.mobilenav {
+  display: block;
+  align-self: center;
+}
+
+.hammenu {
+  width: 36px;
+}
+
+.mobilemenueitems {
+  padding-bottom: 24px;
+  display: none;
+}
+
+.disp-i-b {
+  display: none;
+}
+
+.mobilemenuactive {
+  display: block;
+}
+
+.mobileinactive {
+  display: none;
+}
+
+@media only screen and (min-width: 1180px) {
+
+  .mobilenav {
+    display: none;
+  }
+
+  .navtoplevelpages {
+    display: block;
+    display: flex;
+    float: right;
+  }
+
+
 }

@@ -1,0 +1,14 @@
+.centerholding {
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  margin-top: 80px;
+}
+
+.vertcomp {
+  min-height: 80vh;
+}
+
+a {
+  color: #fff;
+}

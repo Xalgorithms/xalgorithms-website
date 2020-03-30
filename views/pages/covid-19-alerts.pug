@@ -1,0 +1,45 @@
+html
+  header
+    include ../templates/head
+    
+  body
+    // templates
+    include ../templates/navbar
+    .centerholding
+      .vertcomp
+        .verth
+        .vertcontent
+          h3.title Context-Specific Public Alerts Oughtomation
+          br
+          h4.subtitle Immediate Transmission of Context-Specific MUST, MAY and SHOULD Messaging to Individuals and Organizations Through Any Implementation of the Common Alerting Protocol (CAP) in Order to Optimize Economic, Social and Ecological Integrity Amidst the Many Constraints of COVID-19 Pandemic Management and Precautions
+          br
+          h4.subtitle 1. Requirement
+          p.projwords 
+            | Each jurisdiction has an urgent requirement to optimize economic, social and ecological integrity within the constraints of COVID-19 pandemic management and precautions. Meeting this challenge demands event-triggered immediate transmission of context-specific MUST, MAY and SHOULD (normative) messaging to individuals and organizations so that they can be aware of how to participate effectively in pandemic management and precautions, while continuing or resuming activities required for economic, social and ecological integrity. The "WHO Interim Protocol: Rapid operations to contain the initial emergence of pandemic influenza" states: "Appropriate and timely public communication will underpin the success of all aspects of containment operations. Rapid containment communications, which includes the range of local, regional, national and international public communications activities required, will play a direct role in the containment effort, guiding and organizing the ways in which information and advice are disseminated to those inside and outside of the Containment and Buffer Zones."
+          br
+          h4.subtitle 2. Common Alerting Protocol (CAP) and its Various Implementations
+          p.projwords 
+            | The OASIS Standard "Common Alerting Protocol Version 1.2
+            a(href="https://docs.oasis-open.org/emergency/cap/v1.2/CAP-v1.2-os.html") [1] 
+            | is a simple general format for exchanging consistent all-hazard emergency alerts and public warnings over any network. CAP is implemented in diverse systems. For example it is used for the Emergency Alert Broadcast Automation of OpenBroadcaster,
+            a(href="https://openbroadcaster.com/emergency-alert-automation") [2] 
+            | as well as the Internet Engineering Task Force RFC 6443 “Framework for Emergency Calling Using Internet Multimedia” with Session Initiation Protocol (SIP). In 2011 and again in response to the COVID-19 pandemic in early 2020, Brian Rosen, Henning Schulzrinne, Hannes Tschofenig and Randall Gellens published a “work in progress” IETF Internet Draft to describe "Non-Interactive Emergency Calls"
+            a(href="https://tools.ietf.org/id/draft-ietf-ecrit-data-only-ea-20.xml") [3] 
+            | for unidirectional transmission of data for alert use cases that have no requirement for an interactive communication. Beyond these global standards, each country has some form of multi-entity emergency situational awareness and response system.
+            a(href="http://canops.org/masas") [4]
+          br
+          h4.subtitle 3. Context-Specific Messaging
+          p.projwords 
+            | Oughtomation is a general-purpose method grounded in formal research, a scalable and free/libre/open source reference implementation, and a growing suite of use cases. It is designed to enable individuals, organizations or systems to publish, discover, fetch, test and triage descriptive information about normative rules (MUST, MAY and SHOULD, and their negatives and synonyms) which are ‘in effect’ for given dates/times, identities and jurisdictions, and ‘applicable’ as certain facts exhibit. The many behavioural and operational constraints of COVID-19 pandemic management and precautions will be more feasible when exactly the correct normative rules can be discovered and transmitted on-demand to individuals and organizations immediately in response to specified events or status changes. While a user is performing an action with a device (purchase set-up; travel check-in) or transition (approach to a jurisdictional boundary), there is data ‘in effect’ for relevant country/sub-country/locality protocols for pandemic containment given those dates/times and identities, and ‘applicable’ the particulars. Oughtomation enables the parties to immediately receive through their devices concise, current, personalized information about authoritative MUST, MAY and SHOULD elements of the relevant protocols, at a fine level of granularity, respecting jurisdiction-specific privacy, language and prerogative specifications. This can be combined with the digital identity system(s) of each jurisdiction, as well as integrated with distributed agency systems such as Solid
+            a(href="https://solid.inrupt.com/how-it-works") [5] 
+            | and SovrinID.
+            a(href="https://sovrin.org/") [6]
+          br
+          h4.subtitle 4. Team Experience and Background
+          p.projwords 
+            | Oughtomation has been designed and created by Xalgorithms Foundation (Ottawa, Canada). The Executive Director and co-founder of Xalgorithms Foundation, when previously working at Canada’s Treasury Board Secretariat (2005-20012), initiated and served as Project Coordinator for the first six years of the "High Resilience Environment" (HRE), the free/libre/open source mutually-resourced ‘cloudlet’ infrastructure that, now for 15 years, has hosted the Multi-Agency Situational Awareness System (MASAS), Search and Rescue Canada
+            a(href="https://www.canada.ca/en/department-national-defence/services/operations/military-operations/types/search-rescue/about.html") [7]
+            | , and several other national services. The oughtomation method as a whole arises from doctoral dissertation research by Potvin at Université du Québec en Outaouais. Co-founder and Chair of Xalgorithms is William Olders, President and CTO of DataKinetics,
+            a(href="http://www.dkl.com/company") [8] 
+            | a Kanata-based company that for 30 years has been providing high-volume message-oriented transaction processing solutions for the world's largest banking, credit card, insurance and investment companies. The lead technical systems designer and full-stack developer for Xalgorithms’ oughtomation reference implementation is Don Kelly, who is also a production engineering manager at Shopify.
+    include ../templates/footer

@@ -22,6 +22,18 @@ app.get('/team', (req, res) => {
   });
 });
 
+app.get('/donate', (req, res) => {
+  res.render('pages/donate', {
+    title: 'XALGORITHMS | Donate'
+  });
+});
+
+app.get('/covid-19-alerts', (req, res) => {
+  res.render('pages/covid-19-alerts', {
+    title: 'XALGORITHMS | Covid 19 Alerts'
+  });
+});
+
 //team
 
 

@@ -3,6 +3,11 @@ navbar
     .navbargrid
       .navbarsub
         p XALGORITHMS
+      .mobilenav#barnav
+        .disp-i-a
+          img.hammenu(src="../images/i-ham.png")
+        .disp-i-b.exnav
+          img.hammenu(src="../images/i-ex.png")  
       .navtoplevelpages
         .menuitem
           a.navitem(href="/")
@@ -10,3 +15,35 @@ navbar
         .menuitem
           a.navitem(href="/team")
             p Team
+        .menuitem
+          a.navitem(href="https://github.com/Xalgorithms")
+            p Contribute
+        .menuitem
+          a.navitem(href="/donate")
+            p Donate
+        //    
+          .menuitem
+            .buttonhold#padbutton
+              .texthold
+                p.buttontext
+                  a.buttonlink(href="/covid-19-alerts") Global Reset
+    .mobilemenueitems
+      .menuitemb
+        a.navitem(href="/")
+          p Home
+      .menuitemb
+        a.navitem(href="/team")
+          p Team
+      .menuitemb
+        a.navitem(href="https://github.com/Xalgorithms")
+          p Contribute
+      .menuitemb
+        a.navitem(href="/donate")
+          p Donate
+      //    
+        .menuitemb
+          .buttonhold#padbutton
+            .texthold
+              p.buttontext
+                a.buttonlink(href="/covid-19-alerts") Global Reset
+        
