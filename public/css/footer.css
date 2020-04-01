@@ -1,7 +1,8 @@
 .footerhold {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 10vh 30vh;
+  grid-template-rows: 10vh 40vh;
+  grid-row-gap: 10vh;
 }
 
 p.footertext {
@@ -34,11 +35,10 @@ p.footertext {
 .copyleft {
   grid-column-start: 1;
   grid-row-start: 2;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .copyleft {
-  align-self: end;
 }
 
 .footerhold>div {
@@ -83,7 +83,7 @@ p.footertext {
   .footerhold {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: auto 30vh 30vh;
+    grid-template-rows: auto 30vh 60vh;
   }
 
   .addresshold {
@@ -104,6 +104,12 @@ p.footertext {
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 1;
+  }
+
+  .copyleft {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
   }
 
 

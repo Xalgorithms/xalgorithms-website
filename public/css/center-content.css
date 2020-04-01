@@ -17,6 +17,19 @@ ul, ol {
   color: #fff;
 }
 
+li {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .divideline {
   border-bottom: 1px solid #fff;
+}
+
+.bpar {
+  font-weight: 800;
+}
+
+#version {
+  text-align: right;
 }
